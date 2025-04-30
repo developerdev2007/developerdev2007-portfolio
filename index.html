@@ -18,10 +18,12 @@
     <div id="root"></div>
     <script>
       const redirect = sessionStorage.getItem("redirect");
-      if (redirect) {
-        // If a redirect URL is stored, restore it
-        sessionStorage.removeItem("redirect");
-        history.replaceState(null, "", redirect);
+
+      if (redirect && !sessionStorage.getItem("redirected")) {
+        // If there's a redirect path stored and no redirection has happened yet
+        sessionStorage.removeItem("redirect"); // Clear the stored path
+        sessionStorage.setItem("redirected", "true"); // Mark the redirect as completed
+        history.replaceState(null, "", redirect); // Restore the original path
       }
     </script>
   </body>
