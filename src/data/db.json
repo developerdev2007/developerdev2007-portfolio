@@ -84,7 +84,7 @@
       "id": "1",
       "title": "Alma Nilokheri",
       "description": "A dedicated platform for Alma Nilokheri College, designed to connect alumni with their alma mater. This website fosters networking, collaboration, and a sense of community among past and present students.",
-      "image": "/project/alma.png",
+      "image": "{`${import.meta.env.BASE_URL}project/alma.png`}",
       "technologies": [
         "Node.js",
         "Express",
@@ -101,7 +101,7 @@
       "id": "2",
       "title": "Admit Easy",
       "description": "A seamless college admission platform built to bridge the gap between students and colleges. Admit Easy simplifies the admission process, making it more accessible and hassle-free.",
-      "image": "/project/admit-ease.jpeg",
+      "image": "{`${import.meta.env.BASE_URL}project/admit-ease.jpeg`}",
       "technologies": [
         "Node.js",
         "Socket.io",
@@ -117,7 +117,7 @@
       "id": "3",
       "title": "Kiki – AI-Powered Chat & Music Generation",
       "description": "An advanced AI application featuring an interactive chatbot, music generation capabilities, and more. Kiki brings AI-driven creativity and intelligent conversation to your fingertips.",
-      "image": "/project/kiki.png",
+      "image": "{`${import.meta.env.BASE_URL}project/kiki.png`}",
       "technologies": [
         "Node.js",
         "Express",
@@ -135,7 +135,7 @@
       "id": "4",
       "title": "Vercel Clone",
       "description": "A fully functional Vercel clone built using Next.js and Tailwind CSS, providing seamless project deployment and management features.",
-      "image": "/project/vercel_clone.png",
+      "image": "{`${import.meta.env.BASE_URL}project/vercel_clone.png`}",
       "technologies": [
         "Node.js",
         "Express",
@@ -153,7 +153,7 @@
       "id": "5",
       "title": "Spotify Clone",
       "description": "A high-fidelity Spotify clone built with Next.js and Tailwind CSS, offering a sleek music streaming experience with authentication and playlist management.",
-      "image": "/project/spotifyclone.png",
+      "image": "{`${import.meta.env.BASE_URL}project/spotifyclone.png`}",
       "technologies": [
         "Node.js",
         "Express",
