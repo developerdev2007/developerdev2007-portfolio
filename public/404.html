@@ -5,10 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Redirecting...</title>
     <script>
-      // Store the attempted path before redirecting
-      const redirectPath = location.pathname + location.search + location.hash;
-      sessionStorage.setItem("redirect", redirectPath);
-      location.replace("/developerdev2007-portfolio/");
+      // Check if the redirect has already happened
+      if (!sessionStorage.getItem("redirected")) {
+        // Store the attempted path before redirecting
+        const redirectPath =
+          location.pathname + location.search + location.hash;
+        sessionStorage.setItem("redirect", redirectPath);
+
+        // Mark as redirected to avoid infinite loops
+        sessionStorage.setItem("redirected", "true");
+
+        // Perform the redirect to the target base URL
+        location.replace("/developerdev2007-portfolio/"); // Update with your correct path
+      } else {
+        // If already redirected, clear the "redirected" flag to allow future redirects
+        sessionStorage.removeItem("redirected");
+      }
     </script>
   </head>
   <body>
