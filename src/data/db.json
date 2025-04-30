@@ -1,0 +1,185 @@
+{
+  "profile": {
+    "name": "Dev Gupta",
+    "title": "Full Stack Developer",
+    "company": "",
+    "experience": "3 months",
+    "intro": "Hi, I'm Dev, a Full Stack Developer with 4 months of experience. I specialize in building robust and scalable server-side applications.",
+    "bio": "I'm passionate about creating efficient web applications that power modern Businesses. With a strong foundation in server-side technologies, I enjoy solving complex problems and optimizing performance.",
+    "location": "India",
+    "email": "developerdev2007@gmail.com",
+    "phone": "+91 8053389462",
+    "github": "https://github.com/developerdev2007",
+    "linkedin": "https://www.linkedin.com/in/dev-gupta-1330642b8/",
+    "avatar": "/dev.jpg",
+    "resume": "https://drive.google.com/file/d/1_5mS4bKTkgotvVLYUj0enFWiybc2iRYb/view?usp=sharing",
+    "resumeName": "Dev-Gupta-Resume.pdf"
+  },
+  "skills": [
+    { "name": "Node.js", "level": 90 },
+    { "name": "React.js", "level": 90 },
+    { "name": "TypeScript", "level": 90 },
+    { "name": "Express", "level": 85 },
+    { "name": "MongoDB", "level": 70 },
+    { "name": "SQL", "level": 75 },
+    { "name": "API Design", "level": 90 },
+    { "name": "Docker", "level": 50 },
+    { "name": "OpenAI", "level": 80 },
+    { "name": "Next.js", "level": 80 }
+  ],
+  "experience": [
+    {
+      "id": "1",
+      "company": "EdgeNRoots",
+      "position": "Backend Dev Trainee",
+      "startDate": "1-April-2025",
+      "endDate": "30-April-2025",
+      "current": false,
+      "description": "Started as a trainee developer working on various backend tasks and gradually taking on more responsibility on learning the architecture.",
+      "technologies": ["JavaScript", "Node.js", "SQL"]
+    },
+    {
+      "id": "2",
+      "company": "UA Ventures",
+      "position": "Frontend Developer",
+      "startDate": "February-2025",
+      "endDate": "April-2025",
+      "current": false,
+      "description": "Developing and maintaining Frontend Web application. Working with React.js, VPS, and various Libraries to create scalable Web interfaces.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "GoDaddy",
+        "React",
+        "VPS",
+        ""
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "GBN Govt. Polytechnic Nilokheri",
+      "degree": "Diploma in Computer Science & Engineering",
+      "startDate": "2022",
+      "endDate": "2025",
+      "current": false,
+      "description": "Studied computer science with ",
+      "grade": "88.2%(9.4 CGPA)"
+    },
+    {
+      "id": "3",
+      "institution": "Government Model Sanskriti Ser. Sec School, Modal Town Karnal , Haryana",
+      "degree": "Secondary School",
+      "startDate": "2021",
+      "endDate": "2022",
+      "current": false,
+      "description": "Completed my secondary education with a focus on core subjects.",
+      "grade": "95% (District Top)"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Alma Nilokheri",
+      "description": "A dedicated platform for Alma Nilokheri College, designed to connect alumni with their alma mater. This website fosters networking, collaboration, and a sense of community among past and present students.",
+      "image": "/project/alma.png",
+      "technologies": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "JWT",
+        "React",
+        "Tailwind CSS"
+      ],
+      "github": "https://github.com/alma-nilokheri/almanilokheri",
+      "demo": "https://almanilokheri.in",
+      "featured": true
+    },
+    {
+      "id": "2",
+      "title": "Admit Easy",
+      "description": "A seamless college admission platform built to bridge the gap between students and colleges. Admit Easy simplifies the admission process, making it more accessible and hassle-free.",
+      "image": "/project/admit-ease.jpeg",
+      "technologies": [
+        "Node.js",
+        "Socket.io",
+        "MongoDB",
+        "React",
+        "Tailwind CSS"
+      ],
+      "github": "https://github.com/vishu7im/AdmitEase.git",
+      "demo": "https://github.com/vishu7im/AdmitEase.git",
+      "featured": false
+    },
+    {
+      "id": "3",
+      "title": "Kiki – AI-Powered Chat & Music Generation",
+      "description": "An advanced AI application featuring an interactive chatbot, music generation capabilities, and more. Kiki brings AI-driven creativity and intelligent conversation to your fingertips.",
+      "image": "/project/kiki.png",
+      "technologies": [
+        "Node.js",
+        "Express",
+        "JWT",
+        "Redis",
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript"
+      ],
+      "github": "https://github.com/vishu7im/kiki.git",
+      "demo": "https://kiki-roan.vercel.app/",
+      "featured": true
+    },
+    {
+      "id": "4",
+      "title": "Vercel Clone",
+      "description": "A fully functional Vercel clone built using Next.js and Tailwind CSS, providing seamless project deployment and management features.",
+      "image": "/project/vercel_clone.png",
+      "technologies": [
+        "Node.js",
+        "Express",
+        "JWT",
+        "Redis",
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript"
+      ],
+      "github": "https://github.com/vishu7im/vercel-clone.git",
+      "demo": "https://github.com/vishu7im/vercel-clone.git",
+      "featured": true
+    },
+    {
+      "id": "5",
+      "title": "Spotify Clone",
+      "description": "A high-fidelity Spotify clone built with Next.js and Tailwind CSS, offering a sleek music streaming experience with authentication and playlist management.",
+      "image": "/project/spotifyclone.png",
+      "technologies": [
+        "Node.js",
+        "Express",
+        "JWT",
+        "Redis",
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript"
+      ],
+      "github": "https://github.com/vishu7im/spotify-clone.git",
+      "demo": "https://spotify-clone-vishu7im.vercel.app/",
+      "featured": false
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Vishal Munday",
+      "position": "Tech lead",
+      "company": "EdgeNRoots",
+      "avatar": "/vishal1.jpg",
+      "content": "I am pleased to recommend Dev Gupta, a talented  and a fellow alumnus from our college GBN Govt. Polytechnic Nilokheri-Karnal. Dev is highly proficient in development and coding, with a deep understanding of modern programming languages and frameworks. Also demonstrated his commitment to impactful projects. His dedication to delivering high-quality results, coupled with his collaborative approach, makes him an asset to any team.I am confident that Dev's technical expertise and innovative thinking will enable him to excel in any development or coding role he pursues."
+    }
+  ],
+  "admin": {
+    "username": "dev",
+    "password": "12345678"
+  }
+}
