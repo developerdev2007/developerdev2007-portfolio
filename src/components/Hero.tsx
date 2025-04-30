@@ -190,9 +190,7 @@ const Hero: React.FC = () => {
               <div className="w-72 h-72 rounded-full bg-primary/20 animate-pulse absolute -top-6 -left-6"></div>
               <img
                 ref={imageRef}
-                src={`${
-                  import.meta.env.BASE_URL
-                }/developerdev2007-portfolio/dev.jpg`}
+                src={`${import.meta.env.BASE_URL}dev.jpg`}
                 alt="Dev - Backend Developer"
                 className="w-80 h-80 object-cover rounded-lg shadow-xl relative z-10 transition-transform duration-200 animate-glow"
                 style={{ transformStyle: "preserve-3d" }}
@@ -200,7 +198,7 @@ const Hero: React.FC = () => {
                   // Fallback to placeholder if image fails to load
                   (e.target as HTMLImageElement).src = `${
                     import.meta.env.BASE_URL
-                  }/placeholder.svg`;
+                  }placeholder.svg`;
                 }}
               />
               <div className="absolute -bottom-4 -right-4 bg-card p-4 rounded-lg shadow-lg animate-float">

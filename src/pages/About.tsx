@@ -42,7 +42,7 @@ const About: React.FC = () => {
                       // Fallback to placeholder if image fails to load
                       (e.target as HTMLImageElement).src = `${
                         import.meta.env.BASE_URL
-                      }/placeholder.svg`;
+                      }placeholder.svg`;
                     }}
                   />
                 </div>
