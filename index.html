@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,14 +5,23 @@
     <link rel="icon" type="image/svg+xml" href="/developerdev2007-portfolio/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dev Gupta's Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;700&family=Roboto+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <script type="module" crossorigin src="/developerdev2007-portfolio/assets/index-C3F10vbs.js"></script>
     <link rel="stylesheet" crossorigin href="/developerdev2007-portfolio/assets/index-D3vZIQL4.css">
   </head>
   <body>
     <div id="root"></div>
-
+    <script>
+      const redirect = sessionStorage.getItem("redirect");
+      if (redirect) {
+        sessionStorage.removeItem("redirect");
+        history.replaceState(null, "", redirect);
+      }
+    </script>
   </body>
 </html>
