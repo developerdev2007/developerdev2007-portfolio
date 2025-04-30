@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
   const [profile] = usePortfolioData<Profile>("profile");
   const heroRef = useRef<HTMLDivElement>(null);
   const imageRef = useRef<HTMLImageElement>(null);
-
+  console.log({ baseUrl: import.meta.env.BASE_URL });
   // Mouse movement tracking for parallax effect
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
@@ -190,7 +190,9 @@ const Hero: React.FC = () => {
               <div className="w-72 h-72 rounded-full bg-primary/20 animate-pulse absolute -top-6 -left-6"></div>
               <img
                 ref={imageRef}
-                src="/dev.jpg"
+                src={`${
+                  import.meta.env.BASE_URL
+                }/developerdev2007-portfolio/dev.jpg`}
                 alt="Dev - Backend Developer"
                 className="w-80 h-80 object-cover rounded-lg shadow-xl relative z-10 transition-transform duration-200 animate-glow"
                 style={{ transformStyle: "preserve-3d" }}

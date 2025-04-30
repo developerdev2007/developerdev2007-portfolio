@@ -11,7 +11,7 @@
     "phone": "+91 8053389462",
     "github": "https://github.com/developerdev2007",
     "linkedin": "https://www.linkedin.com/in/dev-gupta-1330642b8/",
-    "avatar": "/dev.jpg",
+    "avatar": "{`${import.meta.env.BASE_URL}dev.jpg`}",
     "resume": "https://drive.google.com/file/d/1_5mS4bKTkgotvVLYUj0enFWiybc2iRYb/view?usp=sharing",
     "resumeName": "Dev-Gupta-Resume.pdf"
   },
@@ -174,7 +174,7 @@
       "name": "Vishal Munday",
       "position": "Tech lead",
       "company": "EdgeNRoots",
-      "avatar": "/vishal1.jpg",
+      "avatar": "{`${import.meta.env.BASE_URL}vishal1.jpg`}",
       "content": "I am pleased to recommend Dev Gupta, a talented  and a fellow alumnus from our college GBN Govt. Polytechnic Nilokheri-Karnal. Dev is highly proficient in development and coding, with a deep understanding of modern programming languages and frameworks. Also demonstrated his commitment to impactful projects. His dedication to delivering high-quality results, coupled with his collaborative approach, makes him an asset to any team.I am confident that Dev's technical expertise and innovative thinking will enable him to excel in any development or coding role he pursues."
     }
   ],
