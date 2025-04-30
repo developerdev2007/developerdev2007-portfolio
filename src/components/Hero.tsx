@@ -198,7 +198,9 @@ const Hero: React.FC = () => {
                 style={{ transformStyle: "preserve-3d" }}
                 onError={(e) => {
                   // Fallback to placeholder if image fails to load
-                  (e.target as HTMLImageElement).src = "/placeholder.svg";
+                  (e.target as HTMLImageElement).src = `${
+                    import.meta.env.BASE_URL
+                  }/placeholder.svg`;
                 }}
               />
               <div className="absolute -bottom-4 -right-4 bg-card p-4 rounded-lg shadow-lg animate-float">

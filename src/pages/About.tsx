@@ -40,7 +40,9 @@ const About: React.FC = () => {
                     className="rounded-lg shadow-lg w-full max-w-md mx-auto relative z-10 tilt-card"
                     onError={(e) => {
                       // Fallback to placeholder if image fails to load
-                      (e.target as HTMLImageElement).src = "/placeholder.svg";
+                      (e.target as HTMLImageElement).src = `${
+                        import.meta.env.BASE_URL
+                      }/placeholder.svg`;
                     }}
                   />
                 </div>
