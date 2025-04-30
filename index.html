@@ -19,6 +19,7 @@
     <script>
       const redirect = sessionStorage.getItem("redirect");
       if (redirect) {
+        // If a redirect URL is stored, restore it
         sessionStorage.removeItem("redirect");
         history.replaceState(null, "", redirect);
       }
