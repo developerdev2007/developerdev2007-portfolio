@@ -15,8 +15,8 @@
         // Mark as redirected to avoid infinite loops
         sessionStorage.setItem("redirected", "true");
 
-        // Perform the redirect to the target base URL
-        location.replace("/developerdev2007-portfolio/"); // Update with your correct path
+        // Perform the redirect to the base URL (your portfolio)
+        location.replace("/developerdev2007-portfolio/"); // Update with the correct path
       } else {
         // If already redirected, clear the "redirected" flag to allow future redirects
         sessionStorage.removeItem("redirected");
