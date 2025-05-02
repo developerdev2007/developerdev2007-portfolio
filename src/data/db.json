@@ -84,7 +84,7 @@
       "id": "1",
       "title": "Alma Nilokheri",
       "description": "A dedicated platform for Alma Nilokheri College, designed to connect alumni with their alma mater. This website fosters networking, collaboration, and a sense of community among past and present students.",
-      "image": "{`${import.meta.env.BASE_URL}project/alma.png`}",
+      "image": "/project/alma.png",
       "technologies": [
         "Node.js",
         "Express",
