@@ -35,7 +35,7 @@ const About: React.FC = () => {
                 <div className="relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent opacity-20 blur-xl animate-pulse"></div>
                   <img
-                    src={`${import.meta.env.BASE_URL}dev.jpeg`}
+                    src={`${import.meta.env.BASE_URL}dev.jpg`}
                     alt={profile.name}
                     className="rounded-lg shadow-lg w-full max-w-md mx-auto relative z-10 tilt-card"
                     onError={(e) => {
